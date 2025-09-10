@@ -61,7 +61,7 @@ Visualizations include:
 
 ## Feature Engineering
 
-To model match outcomes, we engineered **relative strength features**:
+To model match outcomes, I engineered **relative strength features**:
 
 ```python
 us_open["Rank_diff"] = us_open["Rank_1"] - us_open["Rank_2"]
